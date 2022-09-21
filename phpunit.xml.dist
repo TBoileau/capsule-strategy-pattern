@@ -32,6 +32,10 @@
     <listeners>
         <listener class="Symfony\Bridge\PhpUnit\SymfonyTestsListener" />
     </listeners>
+    <logging>
+        <junit outputFile="var/coverage/junit.xml"/>
+    </logging>
+
 
     <!-- Run `composer require symfony/panther` before enabling this extension -->
     <!--
